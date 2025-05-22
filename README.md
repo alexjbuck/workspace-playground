@@ -26,8 +26,8 @@
 
 Notable setup:
 
-- package `app` has 1 dependency in its pyproject.toml file: `structlog`
-- package `lib` has 1 dependency in its pyproject.toml file: `matplotlib`
+- package `app` has 1 dependency in its pyproject.toml file: `structlog` but it imports `matplotlib`
+- package `lib` has 1 dependency in its pyproject.toml file: `matplotlib` but it imports `structlog`
 - Neither package has `mypy` in its dev dependencies (to begin with)
 
 This setup is somewhat contrived, and at first seems obviously incorrect, but you'll see
