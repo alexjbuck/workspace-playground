@@ -1,6 +1,7 @@
 # An illustration of leaky boundaries between workspace packages
 
 ## Repository organization
+```
 .
 ├── app
 │   ├── pyproject.toml
@@ -21,6 +22,7 @@
 ├── pyproject.toml
 ├── README.md
 └── uv.lock
+```
 
 Notable setup:
 
